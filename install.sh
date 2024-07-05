@@ -1,0 +1,1 @@
+source defaults.sh # Setting ENV vars
