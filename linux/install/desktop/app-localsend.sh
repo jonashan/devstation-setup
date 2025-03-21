@@ -1,2 +1,2 @@
 echo "Installing Localsend..."
-sudo apt snap install localsend
+sudo snap install localsend
