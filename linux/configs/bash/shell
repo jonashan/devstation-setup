@@ -8,5 +8,5 @@ HISTFILESIZE="${HISTSIZE}"
 source /usr/share/bash-completion/bash_completion
 
 # Set complete path
-export PATH="./bin:$HOME/.local/bin:$HOME"
+export PATH="./bin:$HOME/.local/bin:$PATH"
 set +h
