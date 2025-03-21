@@ -14,3 +14,7 @@ sudo usermod -aG docker ${USER}
 
 # Limit log size to avoid running out of disk
 echo '{"log-driver":"json-file","log-opts":{"max-size":"10m","max-file":"5"}}' | sudo tee /etc/docker/daemon.json
+
+# Setting up default containers
+sudo docker run -d --restart unless-stopped -p "127.0.0.1:5432:5432" --name=postgres16 -e POSTGRES_HOST_AUTH_METHOD=trust postgres:16
+sudo docker run -d --restart unless-stopped -p "127.0.0.1:6379:6379" --name=redis redis:7
