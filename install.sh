@@ -4,4 +4,4 @@
 # echo "### Setting up defaults"
 # echo "source ~/local/share/devstation-setup/defaults.sh" > ~/.bashrc # Setting ENV vars
 # source ~/.bashrc
-source ./linux/install.sh
+source ~/.local/share/devstation/linux/install.sh

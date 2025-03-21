@@ -1,1 +1,1 @@
-for installer in desktop/*.sh; do source $installer; done
+for installer in ~/.local/share/devstation/linux/install/desktop/*.sh; do source $installer; done

@@ -8,11 +8,11 @@ if $RUNNING_GNOME; then
   gsettings set org.gnome.desktop.session idle-delay 0
 
   echo "Installing terminal and desktop tools"
-  source ./install/terminal.sh
-  source ./install/desktop.sh
+  source ~/.local/share/devstation/linux/install/terminal.sh
+  source ~/.local/share/devstation/linux/install/desktop.sh
 else
   echo "Installing terminal tools only"
-  source ./install/terminal.sh
+  source ~/.local/share/devstation/linux/install/terminal.sh
 fi
 
 if $RUNNING_GNOME; then
@@ -20,4 +20,3 @@ if $RUNNING_GNOME; then
   gsettings set org.gnome.desktop.screensaver lock-enabled true
   gsettings set org.gnome.desktop.session idle-delay 300
 fi
-
