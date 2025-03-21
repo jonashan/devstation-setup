@@ -1,4 +1,4 @@
-source ~/.local/share/devstation/configs/bash/rc
+source ~/.local/share/devstation/linux/configs/bash/rc
 
 # Editor used by CLI
 export EDITOR="nvim"
