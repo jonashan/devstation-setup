@@ -10,7 +10,7 @@ gsettings set org.gnome.desktop.wm.keybindings begin-resize "['<Super>BackSpace'
 # Full-screen with title/navigation bar
 gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Shift>F11']"
 
-# Use 6 fixed workspaces instead of dynamic mode
+# Use 9 fixed workspaces instead of dynamic mode
 gsettings set org.gnome.mutter dynamic-workspaces false
 gsettings set org.gnome.desktop.wm.preferences num-workspaces 9
 
