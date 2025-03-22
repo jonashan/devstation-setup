@@ -10,9 +10,11 @@ if $RUNNING_GNOME; then
   echo "Installing terminal and desktop tools"
   source ~/.local/share/devstation/linux/install/terminal.sh
   source ~/.local/share/devstation/linux/install/desktop.sh
+  source ~/.local/share/devstation/linux/install/dotfiles.sh
 else
   echo "Installing terminal tools only"
   source ~/.local/share/devstation/linux/install/terminal.sh
+  source ~/.local/share/devstation/linux/install/dotfiles.sh
 fi
 
 if $RUNNING_GNOME; then
