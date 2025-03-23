@@ -1,3 +1,2 @@
 source ~/.local/share/devstation/linux/configs/bash/shell
-source ~/.local/share/devstation/linux/configs/bash/inputrc
 source ~/.local/share/devstation/linux/configs/bash/init
